@@ -1,0 +1,218 @@
+
+*{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-size: 1.8em;
+    background: linear-gradient(to right, #ffcc00, #9c4409);
+}
+h3{
+    color: rgb(179, 122, 17);
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* default theme */
+header {
+    background: linear-gradient(to right, #ffcc00, #9c4409);
+    color: #fafafa;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav a {
+    text-decoration: none;
+    
+    color: #fff;
+}
+nav:hover, a:hover{
+    background-color: orange;
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+.outtaline{
+    padding: 15px;
+    
+    
+ 
+    
+}
+
+img{
+    max-width: 50%; 
+    height: auto;   
+    margin: 10px;
+    
+    
+}
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.align{
+    justify-content: left;
+}
+
+.skill {
+    margin-bottom: 20px;
+    background: #333;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #b4c983;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+#projects .project {
+    margin-bottom: 30px;
+}
+
+
+/* button */
+#modeToggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+#downloadCV {
+    cursor: pointer;
+    position: relative;
+}
+#modeToggle, #downloadCV{
+    background: linear-gradient(to right, #077719, #381903);
+    color: rgb(234, 236, 236);
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/* end button */
+
+
+    /* Dark theme */
+.dark-mode , .dark-mode section{
+    background: linear-gradient(to right, #000, #333);    
+}
+.dark-mode header, .dark-mode footer{
+    background: linear-gradient(to right, #000, #03360c);
+}
+
+.dark-mode nav {
+    background: #4b4b48;
+    
+}
+.dark-mode nav:hover,nav a:hover{
+    background-color: black;
+    color: orange;
+    
+}
+
+
+.dark-mode section {
+    
+    color: #fff;
+}
+.dark-mode h3{
+    color: #077719;
+}
+.dark-mode h2{
+    background: linear-gradient(to right, #222020, #03360c);
+}
+.dark-mode #contact-form button {
+    background-color: #03360c;
+    color: rgb(196, 185, 185);
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.dark-mode #contact-form button:hover {
+    background-color: black;
+    color: orange;
+}
+
+
+/* End dark mode */
+
+/* form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+}
+
+#contact-form label {
+    margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#contact-form button {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+#contact-form button:hover {
+    background-color: black;
+    color: orange;
+}
+
+
+/*End form */
+
+footer {
+    background: linear-gradient(to right, #ffcc00, #9c4409);
+    color: #fafafa;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #911f10;
+    text-decoration: none;
+}
+
