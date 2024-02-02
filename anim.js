@@ -12,7 +12,7 @@ function toggleMode() {
 }
 
 function downloadCV() {
-    const cvURL = "shancv.pdf"; //replacin the cv location
+    const cvURL = ".pdf"; //replacin the cv location
     const aElement = document.createElement('a');
     aElement.setAttribute('href', cvURL);
     aElement.setAttribute('download', 'IhshanCV.pdf'); // givin a name for cv
